@@ -27,4 +27,10 @@ jobs:
         uses: actions/setup-node@v3.5.0
         with:
           node-version: 16.13.2
+          
+      - name: Add mocka and packages
+        run: |
+          cd src;
+          npm install -g mocha;
+          npm install
       

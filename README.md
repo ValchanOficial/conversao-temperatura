@@ -5,3 +5,12 @@ O projeto conversão de temperatura é um projeto desenvolvido em NodeJS. O proj
 
 ### Observações do projeto
 A aplicação é exposta usando a porta 8080
+
+### Versão mínima do NodeJS
+16.13.2
+
+### Executando pelo Docker
+```bash
+docker container run -d -p 8080:8080 valchan/pucrs-devops-conversao-temperatura:latest
+```
+- [http://localhost:8080/](http://localhost:8080/)

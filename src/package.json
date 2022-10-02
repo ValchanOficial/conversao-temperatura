@@ -24,5 +24,8 @@
     "nodehog": "^0.1.2",
     "swagger-ui-express": "^4.4.0",
     "yamljs": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=16.13.2"
   }
 }

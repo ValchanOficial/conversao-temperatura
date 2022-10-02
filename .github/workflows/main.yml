@@ -50,7 +50,7 @@ jobs:
          file: ./src/Dockerfile
          push: true
          tags: |
-          valchan/pucrs-devops-conversao-temperatura:v1
+          valchan/pucrs-devops-conversao-temperatura:v${{github.run_number}}
           valchan/pucrs-devops-conversao-temperatura:latest
           
         
